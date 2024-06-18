@@ -80,7 +80,7 @@ class Formy(unittest.TestCase):
         if message_succes.is_displayed():
             print('Formular completat corect')
         else:
-            print("A aparut o eroare")
+            print("Rulare eronata")
         self.assertEqual(message_succes.text,"Thanks for submitting your form")
         # textul din formular este egal cu textul mentionat aici(string)
         with soft_assertions():
